@@ -26,8 +26,6 @@
                 ['id' => 3, 'name' => 'Sản phẩm 3', 'price' => 200000, 'description' => 'Mô tả sản phẩm 3'],
                 // Thêm sản phẩm khác vào đây nếu cần
             ];
-
-            // Duyệt qua mảng sản phẩm để hiển thị trên bảng
             foreach ($products as $product) {
                 echo "<tr>";
                 echo "<td>" . $product['id'] . "</td>";
@@ -38,6 +36,10 @@
             }
             ?>
         </tbody>
+        
     </table>
+
+    
 </body>
+
 </html>
